@@ -1,0 +1,19 @@
+.wrapper {
+  height: 100vh;
+  background-size: cover;
+}
+
+.loginPaper {
+  border-radius: var(--mantine-radius-md);
+  @media (max-width: var(--mantine-breakpoint-sm)) {
+    border-radius: 0;
+  }
+}
+
+.loginContainer {
+  padding: var(--mantine-spacing-md);
+
+  @media (max-width: var(--mantine-breakpoint-sm)) {
+    padding: 0;
+  }
+}

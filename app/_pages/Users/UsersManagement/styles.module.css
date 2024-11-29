@@ -1,0 +1,14 @@
+.label {
+  padding-inline: unset;
+  height: unset;
+
+  &:where([data-checked]) {
+    padding-inline: unset;
+    padding: unset;
+    height: unset;
+  }
+}
+
+.checkIcon {
+  margin-inline: auto;
+}

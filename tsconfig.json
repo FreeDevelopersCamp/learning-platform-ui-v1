@@ -20,6 +20,18 @@
     },
     "plugins": [{ "name": "next" }]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/error.js",
+    "app/not-found.js",
+    "app/layout.js",
+    "app/_document.jsx",
+    "app/_ui/Spinner.jsx",
+    "app/loading.js",
+    "app/page.js"
+  ],
   "exclude": ["node_modules"]
 }
